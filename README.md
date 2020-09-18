@@ -10,3 +10,9 @@
 多个Activity之间来回传递数据，既能够将数据传递给指定的Activity，也能够获得Activity返回的数据。
 
 **知识点**： 在Main_Activity相同目录下新建一个Another_Activity文件，为其编写xml界面样式，通过mainActivity中的按钮启动另一个activity并用intent对象传递参数。
+
+## 3.使用Intent隐式启动 ##
+
+掌握使用Intent隐式启动的方法
+
+**知识点**： 使用Intent隐式启动，系统会智能匹配与intent-filter内容相符合的进行输出，用户可以自行选择启动那个，关键就是在intent-filter过滤器里面编写条件。
