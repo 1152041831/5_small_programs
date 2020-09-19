@@ -27,4 +27,4 @@
 
 使用Handler在新线程中发送消息，然后在主线程中处理消息。
 
-**知识点**：
+**知识点**：通过Hander.sendMessage(Message)将消息发送给主线程，在主线程Handler.handleMessage()中接收并处理该消息。
